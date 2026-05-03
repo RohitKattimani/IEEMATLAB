@@ -20,5 +20,5 @@ V4_val = double(sol.V4)
 % Display results
 fprintf('--- Calculated Node Voltages ---\n');
 fprintf('Node 1 (Fixed): 125.00 V\n');
-fprintf('Node 2 (Middle): %.2f V\n', V2);
+fprintf('Node 2 (Middle): %.2f V\n', V2_val);
 fprintf('Node 3 (Right):  %.2f V\n', V3);
